@@ -1,11 +1,11 @@
-import React, {useState} from "react";
+import React from "react";
+import Navbar from "../Components/Navbar";
+import Container from "./Container";
 
-const App:React.FC = () => {
-    const [isRed, setIsRed] = useState(false);
+const App: React.FC = () => (<div>
+    <Navbar />
+    <Container />
+</div>)
 
-    return <div style = {{backgroundColor:isRed? "red" : "black", height: 5000, width: "100%"}}>
-        <button onClick = {() => setIsRed((CurrentIsRed) => !CurrentIsRed)}>dame click</button>
-    </div>
-}
 
-export default App; 
+export default App;
