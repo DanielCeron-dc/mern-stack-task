@@ -29,7 +29,7 @@ module.exports = {
   },
   output: {
     filename: 'js/bundle.js',
-    path: path.resolve(__dirname, 'src/build'),
+    path: path.resolve(__dirname, 'build'),
   },
   plugins: [
     new HtmlWebPackPlugin({
