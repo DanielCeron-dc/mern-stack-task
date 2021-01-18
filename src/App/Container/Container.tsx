@@ -47,6 +47,8 @@ const Container:React.FC = () => {
                 }
             }).then(res => handleResponse(res))
         }
+        setTitle("");
+        setdescription(""); 
         fetchTasks(); 
     }
 
