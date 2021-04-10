@@ -1,3 +1,4 @@
+![Captura de pantalla 2021-04-09 202902](https://user-images.githubusercontent.com/62627348/114253955-5c5f4100-9972-11eb-90a7-9bcdc224b6af.png)
 # mern-stack-task
 
 proyecto basado en el tutorial de fazt 
